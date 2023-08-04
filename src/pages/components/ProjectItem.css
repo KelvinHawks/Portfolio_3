@@ -1,0 +1,25 @@
+.project-item{
+    list-style: none;
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 20.5rem;
+}
+.project-item a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #242424;
+    width: 100%;
+    height: 100%;
+    gap: 22px;
+}
+.languages-sect{
+    background-color: aquamarine;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #858585;
+    min-width: 67px;
+    align-items: center;
+    display: block;
+}
+

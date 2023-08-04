@@ -1,0 +1,9 @@
+.card-item{
+    border-radius: 6px;
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);;
+}
