@@ -1,0 +1,8 @@
+.project-item{
+    list-style: none;
+    width: 50%;
+    margin: 10px auto;
+}
+.project-item button{
+    width: 120px;
+}
