@@ -4,14 +4,14 @@ import { useParams } from 'react-router-dom'
 
   const details = [{
     id:1,
-    image:'Nisha.jpg',
+    image:'../images/nisha.png',
     title:'Nisha',
     desc:'Well built website',
     creator:'u1'
   },
   {
     id:2,
-    image:'SCCF.jpg',
+    image:'./images/nisha.png',
     title:'SCCF',
     desc:'Well built sccf website',
     creator: 'u2'

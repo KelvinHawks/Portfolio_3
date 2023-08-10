@@ -6,7 +6,7 @@ function SingleProjectItem(props) {
   return (
     <li className='project-item'>
       <Card>
-        <h1>{props.image}</h1>
+        <img src={props.image}/>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <div className='place-items__buttons'>
