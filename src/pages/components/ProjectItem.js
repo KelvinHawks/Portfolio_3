@@ -5,7 +5,7 @@ import './ProjectItem.css'
 import { Link } from 'react-router-dom'
 function ProjectItem(props) {
   return (
-   <li className='project-item'>
+   <li className='project-item-main'>
     <Card className='card-item'>
       <Link to={`/${props.id}/project`}>
         <Avatar src={props.image} alt={props.title}></Avatar>

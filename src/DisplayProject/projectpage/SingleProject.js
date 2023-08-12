@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom'
   },
   {
     id:2,
-    image:'./images/nisha.png',
+    image:'../images/sccf.png',
     title:'SCCF',
     desc:'Well built sccf website',
     creator: 'u2'

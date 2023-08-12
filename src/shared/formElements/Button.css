@@ -3,7 +3,7 @@
     padding: 7px 12px;
     border: 1px solid #ff0055;
     border-radius: 4px;
-    color: #fff;
+    color: #ff0055;
     cursor: pointer;
     margin-right: 7px;
     text-decoration: none;
@@ -16,6 +16,7 @@
 .button:active{
     background: #ff4382;
     border-color: #ff4382;
+    color: #fff;
 }
 .button--inverse{
     background: transparent;
@@ -34,6 +35,7 @@
 .button--danger:active{
     background: #f34343;
     border-color: #f34343;
+    color: #fff;
 }
 .button:disabled,
 .button:hover:disabled,
