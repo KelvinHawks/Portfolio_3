@@ -7,6 +7,15 @@ function NavLinks(props) {
         <li>
             <NavLink to='/' exact>DOWNLOAD PORTFOLIO</NavLink>
         </li>
+        <li>
+            <NavLink to='/' exact>GITHUB</NavLink>
+        </li>
+        <li>
+            <NavLink to='/' exact>TWITTER</NavLink>
+        </li>
+        <li>
+            <NavLink to='/' exact>LINKEDLN</NavLink>
+        </li>
     </ul>
   )
 }

@@ -2,8 +2,19 @@
     list-style: none;
     margin-left: 30px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .nav-link li a{
     text-decoration: none;
     color: #242424;
+}
+.nav-link li{
+    margin: 1rem;
+}
+
+@media(min-width:768px){
+    .nav-link{
+        flex-direction: row;
+    }
 }

@@ -28,6 +28,9 @@
     text-decoration: none;
     color: #000;
 }
+.main-navigation__drawer-nav{
+    height: 100%;
+}
 @media(min-width: 768px){
     .main-navigation__btn{
         display: none;
