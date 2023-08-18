@@ -10,11 +10,11 @@ function SingleProjectItem(props) {
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <div className='place-items__buttons'>
-          <Button href inverse>VIEW IN WEB</Button>
-          <Button to Link inverse>VIEW CODE</Button>
-          <Button to danger>Delete</Button>
+          <Button href='/' inverse>VIEW IN WEB</Button>
+          <Button to='' inverse>VIEW CODE</Button>
+          <Button to={`/editProject/${props.id}`} inverse>EDIT</Button>
+          <Button to='/delete' danger >DELETE</Button>
         </div>
-        
       </Card>
     </li>
   )

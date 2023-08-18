@@ -5,7 +5,7 @@ import './Button.css'
 function Button(props) {
     if(props.href){
         return(
-            <a className={`button button--${props.size || 'default'} ${props.inverse && 'button--inverse'} ${props.danger && 'button--danger'}`}>
+            <a href={props.href} className={`button button--${props.size || 'default'} ${props.inverse && 'button--inverse'} ${props.danger && 'button--danger'}`}>
                 {props.children}
             </a>
         )

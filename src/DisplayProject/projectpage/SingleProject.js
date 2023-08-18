@@ -3,14 +3,14 @@ import Project from '../components/Project'
 import { useParams } from 'react-router-dom'
 
   const details = [{
-    id:1,
+    id:'u1',
     image:'../images/nisha.png',
     title:'Nisha',
     desc:'Well built website',
     creator:'u1'
   },
   {
-    id:2,
+    id:'u2',
     image:'../images/sccf.png',
     title:'SCCF',
     desc:'Well built sccf website',

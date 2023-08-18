@@ -5,6 +5,7 @@
 .form-control input,
 .form-control textarea {
   display: block;
+  outline: none;
 }
 .form-control label {
     font-weight: bold;
