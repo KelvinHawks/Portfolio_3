@@ -20,14 +20,11 @@ const formReducer = (state, action)=>{
             [action.inputId]:{value:action.value, isValid:action.isValid}
           },
           isValid:formIsValid
-        }
-        
+        } 
       }
       default:
         return state
   }
-  
-
 }
 function NewProject() {
   const[formState, dispatch] = useReducer(formReducer,{
@@ -43,6 +40,7 @@ function NewProject() {
   },
     isValid:false
   })
+  
   const inputHandler = useCallback((id,value,isValid)=>{
     dispatch({type:'INPUT_CHANGE',
     value:value,

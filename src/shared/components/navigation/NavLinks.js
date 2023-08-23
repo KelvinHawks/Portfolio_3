@@ -8,7 +8,7 @@ function NavLinks(props) {
             <NavLink to='/' exact>DOWNLOAD PORTFOLIO</NavLink>
         </li>
         <li>
-            <NavLink to='/' exact>GITHUB</NavLink>
+            <NavLink to='/newproject' exact>NEW PROJECT</NavLink>
         </li>
         <li>
             <NavLink to='/' exact>TWITTER</NavLink>
