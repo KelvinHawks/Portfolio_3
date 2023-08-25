@@ -17,7 +17,7 @@ function SingleProjectItem(props) {
   return (
     <React.Fragment>
       <Modal show={openModalOverlay} header={props.title} onCancel={closeModalOverlay}>
-          <h1>The modal</h1>
+          <h1>The modal popup</h1>
           <div>
             <Map/>
           </div>
