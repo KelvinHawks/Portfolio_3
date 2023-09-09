@@ -27,7 +27,7 @@ function MainNavigation() {
             <span/>
             <span/>
           </button>   
-          <h1 className='main-navigation__title'><Link to='/'>KIMDEV</Link></h1>
+          <h1 className='main-navigation__title'><Link to='/'>KIMDEVELOPER</Link></h1>
           <nav className='main-navigation__header-nav'>
               <NavLinks/>
           </nav>

@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
+import Backdrop from './Backdrop'
 const ModalOverlay = (props)=>{
     const content = (
         <div>
@@ -12,13 +13,13 @@ const ModalOverlay = (props)=>{
     return ReactDOM.createPortal(content, document.getElementById('modal-hook'))
 }
 
-function Modal() {
+function Modal(props) {
   return (
     <div className='modal__content'>
-    {props.show && <Backdrop onClick={props.onCancel}/>}
-    <div>
-        {props.show && <ModalOverlay/>}
-    </div>
+        {props.show && <Backdrop onClick={props.onCancel}/>}
+        <div>
+            {props.show && <ModalOverlay/>}
+        </div>
     </div>
   )
 }
