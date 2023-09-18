@@ -16,6 +16,9 @@ function NavLinks(props) {
         <li>
             <NavLink to='/' exact>LINKEDLN</NavLink>
         </li>
+        <li>
+            <NavLink to='/auth' exact>AUTHENTICATE</NavLink>
+        </li>
     </ul>
   )
 }
