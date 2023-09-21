@@ -7,15 +7,19 @@ import './Auth.css'
 function Auth() {
   const[formState, inputHandler] = useForm({
     username:{
-      value:''
+      value:'',
+      isValid:false
     },
     email:{
-      value:''
+      value:'',
+      isValid:false
     },
     password:{
-      value:''
-    }
-  })
+      value:'',
+      isValid:false
+    },
+
+  }, false)
   const[isLoginMode, setIsLoginMode] = useState(true)
 
   const changeModeHandler = ()=>{
@@ -36,6 +40,7 @@ function Auth() {
            id='username'
            element='input'
            label='Username'
+           validator={true}
            type='text'
            onInput={inputHandler}
        />
@@ -44,6 +49,7 @@ function Auth() {
               id='email'
               element='input'
               label='Email'
+              validator={true}
               type='text'
               onInput={inputHandler}
           />
@@ -51,6 +57,7 @@ function Auth() {
               id='password'
               element='input'
               label='Password'
+              validator={true}
               type='password'
               onInput={inputHandler}
           />
